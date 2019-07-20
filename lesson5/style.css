@@ -1,7 +1,11 @@
-body{
-font-family: arial, Verdana, "Rubik", sans-serif;
+body {
+
+
+	font-family: 'Lobster', cursive;
+
+	font-family: 'Rubik', sans-serif;
+
 };
- <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet"> 
 
 .introduction{
 	font-family: Rubik;
@@ -9,6 +13,7 @@ font-family: arial, Verdana, "Rubik", sans-serif;
 	font-size: 18px;
 	font-style: oblique;
 	font-color: black;
+	line-height: 1.6;
 	};
 
 
@@ -27,6 +32,7 @@ font-family: arial, Verdana, "Rubik", sans-serif;
 	font-weight:400; 
 	font-size: 15px;
 	font-color:white;
+	font-decoration: underline;
 	
 }; 
 
@@ -38,15 +44,14 @@ h1{
 	font-style: italic;
 	display:block;
 	text-align:left; 
-	
-
 };
 
 h2{
-	font-family: Rubik;
-	font-style: bold;
+	font-family: "Lobster";
+	font-style: italic, ;
 	font-color: darkslategray;
 };
+
 h3{
 	font-style: italic; 
 	font-color: black;
@@ -65,8 +70,15 @@ text-decoration: none;
 text-indent: 1.5px;
 };
 
-.end{
-font-style: bold;
+.note {
+	font-family:  "Noto Sans Old Italic";
+	font-color: #800000;
+	font-size: medium;
+};
+
+.footer{
+font-weight: bold;
+font-size: 15px;
 };
 
 
