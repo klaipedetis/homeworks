@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #f6f6f6;
+    font-family: Tahoma, Arial, sans-serif;
+    width: 1366px;
+    height: 2070px;
+
+}
+h1{
+    display: inline-block;
+    width: 484px;
+    height: 45px;
+    color: #000000;
+    font-family: Tahoma;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.card-name{
+    color: #000000;
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: 400;
+}
+.card-product{
+    isplay: inline-block;
+    vertical-align: top;
+    width: 404px;
+    height: 630px;
+    margin-top: 90;
+    margin-left: 123;
+
+}
+}
+.card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1010px;
+    height: 502px;
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    margin-right: 125px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1010px;
+    height: 502px;
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+}
+.card-product{
+    display: inline-block;
+    margin-left: 105px;
+    margin-top: 70px;
+    width: 404px;
+    height: 630px;
+    vertical-align: top;
+}
+.description{
+    display: inline-block;
+    width: 400px;
+    margin-left: 160px;
+    margin-top: 90px;
+    vertical-align: top;
+    font-size: 15px;
+}
+.size{
+    color: #313131;
+    font-family: Tahoma;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top:50px;
+    margin-bottom: 50px;
+  }
+button{
+    width: 250px;
+    height: 50px;
+    background-color: #ec744a;
+    color: #fff;
+    text-align: center;
+    line-height:50px;
+    border: none;
+    outline: none;
+.price{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+.buy{
+    display: inline-flex;
+    position: absolute;
+    color: white;
+    font-family: Tahoma;
+    font-size: 24px;
+    font-weight: 700;
+    width: 175px;
+    height: 67px;
+    border-radius: 5px;
+    background-color: #f05a22;
+.more{
+    display: inline-flex;
+    position: absolute;
+    color:#f15921;
+    font-family: Tahoma;
+    font-size: 24px;
+    font-weight: 700;
+    width: 287px;
+    height: 67px;
+    border-radius: 5px;
+    border: 2px solid #f05a22;
+  backraund-color: white;
+}
