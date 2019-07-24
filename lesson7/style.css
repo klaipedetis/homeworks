@@ -48,9 +48,7 @@ h1{
 }
 
 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
   }
 
 p{
@@ -63,6 +61,7 @@ p{
     line-height: 27px;
 }
 .card{
+    display:flex;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -135,9 +134,12 @@ button{
   backraund-color: white;
 }
 .delivery{
-    width: 1075px;
-    height: 220px;
+    width: 1367px;
+    height: 408px;
+    border: 1px solid #ffffff;
+    background-color: #f2f2f2;
     display: flex;
+    justify-content: space-around;
 }
 .delivery-name{
     justify-items: center;
