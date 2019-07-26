@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b2dd3d33-a875-4d1b-b6bc-d35b658edaf7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/Credit_card.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/card.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/Mailbox.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/box.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/Shopping_basket.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/shop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/delivery.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/bus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bearmen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bearmen1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bisnes_man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/crazzy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/heppyboy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/stillishman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tourist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/yang_bear_man.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -60,6 +64,7 @@
       <workItem from="1564003298111" duration="189000" />
       <workItem from="1564003525064" duration="656000" />
       <workItem from="1564159340612" duration="6726000" />
+      <workItem from="1564175058837" duration="2571000" />
     </task>
     <servers />
   </component>

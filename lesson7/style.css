@@ -26,7 +26,7 @@ h1{
     font-weight: 400;
 }
 .card-product{
-    isplay: inline-block;
+    display: inline-block;
     vertical-align: top;
     width: 404px;
     height: 630px;
@@ -132,7 +132,7 @@ button{
     height: 67px;
     border-radius: 5px;
     border: 2px solid #f05a22;
-  backraund-color: white;
+    backraund-color: white;
 }
 .delivery-cart{
     width: 1367px;
@@ -241,4 +241,36 @@ button{
 .customers{
     width: 1137px;
     height: 659px;
+    display: inline-flex;
+justify-content: space-around;
+}
+.buyers{
+    color: #333333;
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 27px;
+    align-items: start;
+    }
+.customer-descr{
+    align-items: flex-start;
+}
+
+.buyers-img{
+    width: 261px;
+    height: 261px;
+    border: 1px solid #ffffff;
+    background-color: #000000;
+
+}
+
+.photo{
+    width: 261px;
+    height: 261px;
+    align-items: collumns;
+}
+
+img{
+    width: 261px;
+    height: 261px;
 }
