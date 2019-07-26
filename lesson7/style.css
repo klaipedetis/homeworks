@@ -106,18 +106,19 @@ button{
     outline: none;
 .price{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: relative;
 
 .buy{
     display: inline-flex;
     position: absolute;
-    color: white;
+    font-color: white;
     font-family: Tahoma;
     font-size: 24px;
     font-weight: 700;
     width: 175px;
     height: 67px;
+    border:1px solid;
     border-radius: 5px;
     background-color: #f05a22;
 .more{
@@ -133,51 +134,62 @@ button{
     border: 2px solid #f05a22;
   backraund-color: white;
 }
-.delivery{
+.delivery-cart{
     width: 1367px;
     height: 408px;
     border: 1px solid #ffffff;
     background-color: #f2f2f2;
     display: flex;
-    justify-content: space-around;
+
 }
-.delivery-name{
-    justify-items: center;
+.delivery-cart{
+    width: 241px;
+    height: 102px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.metod{
+    align-self: flex-start;
+    width: 291px;
+    height: 27px;
+
+}
+<!-- настройки отдела продаж -->
+
+.selling{
     color: #333333;
     font-family: Tahoma;
     font-size: 30px;
     font-weight: 700;
-}
-.card{
-
-}
-.delivery{
-
-}
-.minivan{
-
-}
-.mailbox{
-
-}
-.delivery-name{
-color: #333333;
-    font-family: Tahoma;
-    font-size: 30px;
-    font-weight: 700;
     line-height: 27px;
-    }
-.shop_dsc{
+}
+.shop{
     width: 181px;
-    height: 36px;
+    height: 102px;
+}
+
+.shop1{
+    width: 54px;
+    height: 50px;
+    background-color: #000000;
+}
+.shop-descr{
     color: #333333;
     font-family: "Open Sans";
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
 }
-.cart_dsc{
-/* Style for "Оплата онл" */
+.buy{
+    width: 241px;
+    height: 102px;
+}
+.cart1{
+    height=38px;
+    width=58px;
+}
+.buy1{
     width: 241px;
     height: 41px;
     color: #333333;
@@ -186,7 +198,16 @@ color: #333333;
     font-weight: 400;
     line-height: 22px;
 }
-.delivery_dsc{
+.curiers{
+    width: 194px;
+    height: 101px;
+}
+.bus{
+    width: 58px;
+    height: 36px;
+    background-color: #000000;
+}
+.buses{
     width: 194px;
     height: 39px;
     color: #333333;
@@ -199,7 +220,14 @@ color: #333333;
     /* Text style for "р." */
     font-family: Helvetica;
 }
-.mailbox_dsc{
+
+.post-box {
+    width: 54px;
+    height: 40px;
+    background-color: #000000;
+}
+
+.post-decr{
     width: 194px;
     height: 41px;
     color: #333333;
@@ -207,24 +235,10 @@ color: #333333;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
-}
-.icons1{
-    width: 54px;
-    height: 50px;
-    background-color: #000000;
-}
-.icons2{
-    width: 58px;
-    height: 38px;
-    background-color: #000000;
-}
-.icons3{
-    width: 58px;
-    height: 36px;
-    background-color: #000000;
-}
-.icons4{
-    width: 54px;
-    height: 40px;
-    background-color: #000000
+
+<!-- настройка отдела покупателей -->
+
+.customers{
+    width: 1137px;
+    height: 659px;
 }
