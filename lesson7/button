@@ -96,7 +96,6 @@ justify-content: space-around;
     border: none;
      }
 .btn-two{
-    cursor: pointer;
     width: 287px;
     height: 67px;
     border-radius: 5px;
@@ -145,7 +144,6 @@ justify-content: space-around;
     padding-bottom: 50px;
 }
 .delivery-box{
-    cursor: pointer;
     width: 181px;
     height: 102px;
     padding-top: 50px;
@@ -211,16 +209,12 @@ h2 {
     line-height: 22px;
 }
 /* <!-- настройка отдела покупателей --> */
-.container{
-    margin-top: 15px;
-    margin-bottom: 50px;
-}
 
 .customers {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap
-  }
+}
 
 .buyers {
     text-align: center;
@@ -230,8 +224,6 @@ h2 {
     font-weight: 700;
     line-height: 27px;
     align-items: start;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .customer-descr {
@@ -246,7 +238,6 @@ h2 {
 }
 
 .photo {
-    cursor: pointer;
     width: 261px;
     height: 261px;
     margin-bottom: 15px;
