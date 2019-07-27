@@ -1,17 +1,23 @@
-*{
+* {
     box-sizing: border-box;
 }
-body {
-    background-color: #f6f6f6;
-    font-family: Tahoma, Arial, sans-serif;
-    width: 1366px;
-    height: 2070px;
 
+body {
+    font-family: Tahoma, Arial, sans-serif;
 }
-h1{
-    display: inline-block;
-    width: 484px;
-    height: 45px;
+
+header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-around
+}
+
+h1 {
+    text-align: left;
     color: #000000;
     font-family: Tahoma;
     font-size: 48px;
@@ -19,39 +25,30 @@ h1{
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.card-name{
+
+.card-name {
     color: #000000;
     font-family: Tahoma;
     font-size: 30px;
     font-weight: 400;
+    text-align: left;
 }
-.card-product{
+
+.card-product {
     display: inline-block;
     vertical-align: top;
     width: 404px;
     height: 630px;
     margin-top: 90;
     margin-left: 123;
-
-}
-}
-.card{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 1010px;
-    height: 502px;
-    background-color: #fff;
-    border: 1px solid #e4e4e4;
-    margin-right: 125px;
 }
 
-img{
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
 
-  }
-
-p{
+p {
     margin-top: 30px;
     margin-bottom: 20px;
     color: #000000;
@@ -60,71 +57,59 @@ p{
     font-weight: 400;
     line-height: 27px;
 }
-.card{
-    display:flex;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 1010px;
-    height: 502px;
-    background-color: #fff;
-    border: 1px solid #e4e4e4;
-}
-.card-product{
-    display: inline-block;
-    margin-left: 105px;
-    margin-top: 70px;
-    width: 404px;
-    height: 630px;
-    vertical-align: top;
-}
-.description{
-    display: inline-block;
-    width: 400px;
-    margin-left: 160px;
-    margin-top: 90px;
-    vertical-align: top;
+
+.description {
     font-size: 15px;
 }
-.size{
+
+.msg {
+    width: 400px;
+}
+
+.size {
     color: #313131;
     font-family: Tahoma;
     font-size: 48px;
     font-weight: 400;
-    margin-top:50px;
+    margin-top: 50px;
     margin-bottom: 50px;
-  }
-button{
-    width: 250px;
-    height: 50px;
-    background-color: #ec744a;
-    color: #fff;
-    text-align: center;
-    line-height:50px;
-    border: none;
-    outline: none;
-.price{
-    display: flex;
-    flex-direction: column;
-    position: relative;
+}
 
-.buy{
-    display: inline-flex;
-    position: absolute;
-    font-color: white;
+.prise{
+display: flex;
+justify-content: space-around;
+}
+
+btn-one {
+    cursor: pointer;
+    width: 175px;
+    height: 67px;
+    border-radius: 5px;
+    background-color: #f05a22;
+    text-align: center;
+    color: #f05a22;
     font-family: Tahoma;
     font-size: 24px;
     font-weight: 700;
-    width: 175px;
+    line-height: 27px;
+    margin-right: 25px;
+     }
+btn-two{
+    width: 287px;
     height: 67px;
-    border:1px solid;
     border-radius: 5px;
-    background-color: #f05a22;
-.more{
+    border: 2px solid #f05a22;
+    color: #f05a22;
+    font-family: Tahoma;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 25px;
+    }
+
+.more {
     display: inline-flex;
     position: absolute;
-    color:#f15921;
+    color: #f15921;
     font-family: Tahoma;
     font-size: 24px;
     font-weight: 700;
@@ -132,82 +117,88 @@ button{
     height: 67px;
     border-radius: 5px;
     border: 2px solid #f05a22;
-    backraund-color: white;
 }
-.delivery-cart{
-    width: 1367px;
-    height: 408px;
-    border: 1px solid #ffffff;
-    background-color: #f2f2f2;
-    display: flex;
 
-}
-.delivery-cart{
-    width: 241px;
-    height: 102px;
+.delivery-cart {
+    text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.metod{
+
+.metod {
     align-self: flex-start;
     width: 291px;
     height: 27px;
-
 }
-<!-- настройки отдела продаж -->
 
-.selling{
+
+/* настройки отдела продаж  */
+
+.main {
+    border: 1px solid #ffffff;
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.selling {
+    text-align: center;
     color: #333333;
     font-family: Tahoma;
     font-size: 30px;
     font-weight: 700;
     line-height: 27px;
+    margin-top: 89px;
+    margin-bottom: 50px;
 }
-.shop{
+
+.shop {
     width: 181px;
     height: 102px;
 }
 
-.shop1{
+.shop1 {
     width: 54px;
     height: 50px;
     background-color: #000000;
 }
-.shop-descr{
-    color: #333333;
+
+.shop-descr {
+    color: black;
     font-family: "Open Sans";
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
 }
-.buy{
-    width: 241px;
-    height: 102px;
+
+.cart1 {
+    height: 38px;
+    width: 58px;
 }
-.cart1{
-    height=38px;
-    width=58px;
-}
-.buy1{
+
+.buy1 {
     width: 241px;
     height: 41px;
     color: #333333;
-    font-family: "Open Sans";
+    font-family:"Open Sans";
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
+    text-align: center;
 }
-.curiers{
+
+.curiers {
     width: 194px;
     height: 101px;
 }
-.bus{
+
+.bus {
     width: 58px;
     height: 36px;
-    background-color: #000000;
 }
-.buses{
+
+.buses {
     width: 194px;
     height: 39px;
     color: #333333;
@@ -219,15 +210,15 @@ button{
     font-family: "Open Sans";
     /* Text style for "р." */
     font-family: Helvetica;
+     text-align: center;
 }
 
 .post-box {
     width: 54px;
     height: 40px;
-    background-color: #000000;
 }
 
-.post-decr{
+.post-decr {
     width: 194px;
     height: 41px;
     color: #333333;
@@ -235,42 +226,41 @@ button{
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
-
-<!-- настройка отдела покупателей -->
-
-.customers{
-    width: 1137px;
-    height: 659px;
-    display: inline-flex;
-justify-content: space-around;
+     text-align: center;
 }
-.buyers{
+
+
+/* <!-- настройка отдела покупателей --> */
+
+.customers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+.buyers {
+    text-align: center;
     color: #333333;
     font-family: Tahoma;
     font-size: 30px;
     font-weight: 700;
     line-height: 27px;
     align-items: start;
-    }
-.customer-descr{
+}
+
+.customer-descr {
     align-items: flex-start;
 }
 
-.buyers-img{
+.buyers-img {
     width: 261px;
     height: 261px;
     border: 1px solid #ffffff;
     background-color: #000000;
-
 }
 
-.photo{
+.photo {
     width: 261px;
     height: 261px;
-    align-items: collumns;
-}
-
-img{
-    width: 261px;
-    height: 261px;
+    margin-bottom: 15px;
 }

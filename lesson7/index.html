@@ -1,117 +1,126 @@
 <!doctype html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Истинная Королева</title>
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
 </head>
-<body cz-shortcut-listen="true>
-<div class="card">
-    <div class="card-product">
-        <img src="img/book.png" alt="Книга">
-    </div>
-    <div class="description">
-        <h1>Истинная Королева</h1>
-        <p class="card-name">Екатерина Арагонская</p>
-        <p class="msg">«Екатерина Арагонская» — это первый роман популярного автора и известного
-            историка Элисон Уэйр, решившей создать драматическую серию, в которой каждая книга будет посвящена
-            одной из жен короля Генриха VIII.</p>
-        <p class="size">399P</p>
-        <div class="price">
-            <button>
-                <span class="buy">Купить</span>
-            </button>
-            <button>
-                <span class="more">Узнать подробнее</span>
-            </button>
-        </div>
-    </div>
-<!-- Отделл продаж -->
 
-<div class="delivery-cart">
-    <div class="metod">
-        <p class="selling">Доставка и оплата</p>
-    </div>
-    <div class="shop">
-         <img clas="shop1" src="img/icons/shop.png"/>
-        <p class="shop-descr">Бесплатная доставка</br>
-            381 магазин в сети</p>
-    </div>
-
-    <div class="buy">
-        <img class="cart1" src="img/icons/card.png"/>
-        <p class="buy1">Оплата онлайн или</br> наличными при получении</p>
-    </div>
-
-    <div class="curiers">
-        <img class= "bus" src="img/icons/bus.png" />
-        <p class="buses">Курьерская доставка:</br>
-            от 2000 р. – бесплатно</p>
-    </div>
-
-    <div class="post">
-        <img  class="post-box" src="img/icons/box.png"/>
-        <p class="post-decr">Почтой России –</br>
-            в любую точку страны</p>
-    </div>
-
-</div>
-<!-- Отдел покупателей -->
-<div class="customers">
-
-    <div class="customer-descr">
-
-    <p class="buyers">Кто уже купил эту книгу</p>
-
-    </div>
-
-    <div class="buyers-img">
-
-        <div class="photo">
-
-            <img src="img/1.png"/>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-box">
+                <div class="card-product">
+                    <img src="img/book.png" alt="Книга">
+                </div>
+                <div class="description">
+                    <h1>Истинная Королева</h1>
+                    <p class="card-name">Екатерина Арагонская</p>
+                    <br class="msg">«Екатерина Арагонская» — это первый роман популярного</br>
+                    автора и известного историка Элисон Уэйр, решившей создать</br>
+                    драматическую серию, в которой каждая книга будет</br>
+                    посвящена одной из жен короля Генриха VIII.</p>
+                    <p class="size">399P</p>
+                    <div class="price">
+                        <button class="button btn-one"> Купить </button>
+                        <button class="button btn-two"> Узнать подробнее </button>
+                    </div>
+                </div>
+            </div>
 
         </div>
+    </header>
+    <!-- Отделл продаж -->
+    <section class="main">
+        <div class="container">
+            <h2 class="selling">Доставка и оплата</h2>
+            <div class="delivery-cart">
+                <div class="shop">
+                    <img clas="shop1" src="img/icons/shop.png" />
+                    <p class="shop-descr">Бесплатная доставка</br>
+                        381 магазин в сети</p>
+                </div>
 
-        <div class="photo">
+                <div class="buy">
+                    <img class="cart1" src="img/icons/card.png" />
+                    <p class="buy1">Оплата онлайн или</br> наличными при получении</p>
+                </div>
 
-            <img src="img/2.png"/>
+                <div class="curiers">
+                    <img class="bus" src="img/icons/bus.png" />
+                    <p class="buses">Курьерская доставка:</br>
+                        от 2000 р. – бесплатно</p>
+                </div>
 
-        </div> <div class="photo">
+                <div class="post">
+                    <img class="post-box" src="img/icons/box.png" />
+                    <p class="post-decr">Почтой России –</br>
+                        в любую точку страны</p>
+                </div>
 
-        <img src="img/3.png"/>
+            </div>
+            <!-- Отдел покупателей -->
+        </div>
+    </section>
+    <footer>
+        <div class="container">
 
-    </div> <div class="photo">
+            <h2 class="buyers">Кто уже купил эту книгу</h2>
 
-        <img src="img/7.png"/>
+            <div class="customers">
 
-    </div> <div class="photo">
+                <div class="photo">
 
-        <img src="img/4.png"/>
+                    <img src="img/1.png" alt="img" />
 
-    </div>
+                </div>
 
-        <div class="photo">
+                <div class="photo">
 
-        <img src="img/5.png"/>
+                    <img src="img/2.png" alt="img" />
 
-    </div>
-        <div class="photo">
+                </div>
 
-        <img src="img/6.png"/>
+                <div class="photo">
 
-    </div><div class="photo">
+                    <img src="img/3.png" alt="img" />
 
-        <img src="img/8.png"/>
+                </div>
+                <div class="photo">
 
-    </div>
+                    <img src="img/7.png" alt="img" />
 
-    </div>
+                </div>
+                <div class="photo">
 
-</div>
+                    <img src="img/4.png" alt="img" />
+
+                </div>
+
+                <div class="photo">
+
+                    <img src="img/5.png" alt="img" />
+
+                </div>
+                <div class="photo">
+
+                    <img src="img/6.png" alt="img" />
+
+                </div>
+                <div class="photo">
+
+                    <img src="img/8.png" />
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
 
 </body>
-</html>
+
+</html
