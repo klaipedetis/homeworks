@@ -106,6 +106,7 @@ justify-content: space-around;
     font-size: 24px;
     font-weight: 700;
     margin-left: 25px;
+    background-color: white;
     }
 
 .more {
@@ -137,18 +138,18 @@ justify-content: space-around;
 
 /* настройки отдела продаж  */
 .main{
-    width: 1367px;
-    height: 408px;
     border: 1px solid #ffffff;
     background-color: #f2f2f2;
     padding-top: 50px;
-    padding-bottom: 50px;
-}
+    padding-bottom:80px;
+   }
+
 .delivery-box{
     cursor: pointer;
     width: 181px;
     height: 102px;
     padding-top: 50px;
+    padding-bottom: 80px;
 }
 h2 {
     text-align: center;
@@ -158,6 +159,8 @@ h2 {
     font-weight: 700;
     line-height: 27px;
     text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
 }
 .shop{
     height=50px;
