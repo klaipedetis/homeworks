@@ -20,7 +20,7 @@
 .navbar{
     display:flex;
     justify-content: space-between;
-    margin-bottom: 150px;
+    margin-bottom: 159px;
 }
 
 .brand{
@@ -38,6 +38,7 @@
     justify-content: space-between;
     align-items: center;
 }
+.main-text{
     width: 50%;
 
 }
@@ -94,6 +95,7 @@
     margin-bottom: 16px;
     font-size: 20px;
     font-weight: 400;
+    padding-top: 94px;
 }
 .section-title{
     display:block;
