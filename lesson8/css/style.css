@@ -149,17 +149,15 @@
 
     <!--насторйка секции peple -->
 
+<!-- Настройка footer -->
+
 .footer{
-    background-color: #32325f;
-    color:white;
+    background-color: #32305f;
+    color:#ffffff;
     padding-top: 70px;
     padding-bottom: 70px;
-    }
-.footer-wrap{
-    display:flex;
-    justify-content: space-between;
 }
-.wrap{
+.footer-wrap{
     display:flex;
     justify-content: space-between;
 }
@@ -168,14 +166,16 @@
 }
 .footer-title{
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     margin-top: 35px;
+}
 }
 .footer a{
     display:block;
-    color: #ffffff;
+    color:#ffffff;
     margin-bottom: 10px;
 }
-.footer p{
+footer p{
     line-height: 1.4;
+
 }
