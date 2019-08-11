@@ -152,7 +152,9 @@
 <!-- Настройка footer -->
 
 .footer{
-    background-color: #32305f;
+    width: 1920px;
+    height: 312px;
+    background-color: #32325f;
     color:#ffffff;
     padding-top: 70px;
     padding-bottom: 70px;
@@ -169,7 +171,6 @@
     font-weight: 700;
     margin-top: 35px;
 }
-}
 .footer a{
     display:block;
     color:#ffffff;
@@ -178,4 +179,7 @@
 footer p{
     line-height: 1.4;
 
+}
+.humans{
+    margin-bottom: 36px;
 }
