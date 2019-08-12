@@ -1,13 +1,13 @@
 .body{
     font-family: sans-serif;
-    color:#32325f;
+    color: #32325f;
 }
 .hero{
     padding-top: 70px;
     padding-bottom: 190px;
 }
 .subtitle{
-    font-syze:20px;
+    font-size:20px;
     font-weight: 400;
 }
 .title{
@@ -85,10 +85,7 @@
     color: white;
     margin-top: 112px;
   }
-.footer-block{
-    border-top: 78px;
-    padding-bottom: 104px;
-}
+
 .footer-title{
     font-size: 24px;
     font-weight: 700;
