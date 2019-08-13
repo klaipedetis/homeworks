@@ -1,0 +1,90 @@
+.body{
+	display:flex;
+	width: 1200px;
+	height: 675px;
+	background-color: #f6f6f6
+	color: #2f2f2f;
+	font-family: "Arial-MT" sans-serif;;
+}
+.section{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	align-items: center;
+	background-color: #ffffff
+}
+
+.picture{
+	display:flex;
+	justify-content: space-around;
+	width: 376px;
+	height: 375px;
+	margin 64px 100px 64px 48px;
+}
+
+.content{
+	display:flex;
+	justify-content: space-around;
+	padding-top: 180px;
+	padding-bottom: 81px;
+	padding-right: 93px;
+}
+
+.price-header{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title{
+	
+	font-family: "Arial - Bold MT";
+	font-size: 23px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.subtitle{
+	
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 55px;
+}	
+
+.price{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: left;
+	margin-right: 232px;margin-bottom: 
+	margin-bottom: 81px;
+}
+
+.price-subtitle{
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+.price-title{
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 56px;
+	margin-right: 149px;
+	}
+.price-button{
+	display:flex;
+	align-items: flex-start;
+	width: 252px;
+	height: 50px;
+	background-color: #ec744a;
+	padding: 16px 39px 16px 39px;
+}
+.btn{
+	display:flex;
+	text-align: center;
+	font-size: 19px;
+	font-weight: 400;
+	color:#ffffff;
+
+}
