@@ -9,11 +9,13 @@
 .subtitle{
     font-size:20px;
     font-weight: 400;
+    color: #32325f;
 }
-.title{
-    font-size:48px;
+.title {
+    font-size: 48px;
     font-weight: 700;
 }
+
 .description{
     font-size: 20px;
     font-weight: 400;
