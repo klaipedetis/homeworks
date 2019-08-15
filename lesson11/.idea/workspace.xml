@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c11b49b-b9cd-4042-aa85-e2a91edc1f2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
-    </list>
+    <list default="true" id="6c11b49b-b9cd-4042-aa85-e2a91edc1f2b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +14,9 @@
   <component name="ProjectId" id="1PNqEeOeEhpUuQril1Y0bLYbIcW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson10" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,6 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565724791705</updated>
       <workItem from="1565724794462" duration="215000" />
+      <workItem from="1565885308103" duration="54000" />
     </task>
     <servers />
   </component>
@@ -53,7 +53,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
