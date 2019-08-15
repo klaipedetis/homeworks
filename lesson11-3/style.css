@@ -1,77 +1,78 @@
-*{
-	box-sizing: border-box;
+.body{
+  
+  color: #2f2f2f;
+  font-family:"Arial-MT", sans-serif;
+  background-color: ##f6f6f6;
+
 }
-body{
-	display:flex;
-	justify-content: space-between;
-	background-color: #f6f6f6;
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+.container{
+  margin:auto;
+  width: 1200px;
+  height: 675px;
+  border:1px solid #e4e4e4;
 }
 .card{
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	width: 1010px;
-	height: 502px;
-	background-color: #fff;
-	border: 1px solid #e4e4e4;
-}
-
-p{
-	margin-top: 0;
-	margin-bottom: 0;
-}
-.card-product{
-	display: flex;
-	position:relative;
-	max-width:50%	
-	margin-top: 70px;
-	margin-left: 105px;
-	width: 256px;
-	height: 360px;
-	vertical-align: top;
+  display:flex;
+  margin: auto;
+  width: 1010px;
+  height: 503px;
+  border: 1px solid #d7d7d7;
+ }
+.headphones{
+  margin-top: 64px;
+  margin-right: 99px;
+  margin-bottom: 64px;
+  margin-left: 48px;
 }
 .img{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+  width: 376px;
+  height: 375px;
 }
 
-.description{
-	display: flex;
-  justify-content: flex-end;
+.card-text{
+  display:flex;
+  justify-content: space-between;
   flex-direction: column;
-  text-align: left;
-	width: 400px;
-	margin-left: 160px;
-	margin-top: 90px;
-	vertical-align: top;
-	font-size: 15px;
+  margin-top: 94px;
+  margin-right: 93px;
+  margin-bottom: 81px;
 }
-button{
-	width: 250px;
-	height: 50px;
-	background-color: #ec744a;
-	color: #fff;
-	text-align: center;
-	line-height:50px;
-	border: none;
-	outline: none;
-}
-.description .card-name{
-	font-weight: bold;
-	font-size: 23px;
-}
-.size{
-	font-size: 30px;
-	margin-top: 23px;
-	margin-bottom: 36px;
-}
-.size-19{
-	font-size: 19px;
-}
-.msg{
-	margin-top: 30px;
-	margin-bottom: 55px;
-}
+
+.title{
+  font-family: "Arial - Bold MT";
+  font-size: 23px;
+  }
+  .subtitle{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 55px;
+  }
+ 
+  .price-title{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 23px;
+  }
+  .price-subtitle{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 56px;
+  }
+  button{
+    width: 252px;
+    height: 50px;
+    background-color: #ec744a;
+    
+  }
+  .size-19{ 
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+
+  }
+
+
+
